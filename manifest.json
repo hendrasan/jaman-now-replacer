@@ -1,0 +1,17 @@
+{
+  "name": "Jaman Now Replacer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Changes phrases of Jaman Now and its variation to Zaman Sekarang",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content_script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
